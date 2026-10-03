@@ -21,7 +21,7 @@ ip a
 
 He executat la comanda `ip a` per visualitzar totes les interfícies de xarxa disponibles. He identificat la segona adreça IP, corresponent a la interfície Host-Only, que serà la utilitzada per connectar-me remotament des del sistema Windows.
 
-![Imatge Ip Servidor](/ActivitatsSmx2/media/1.png)
+![Imatge Ip Servidor](/media/1.png)
 
 media/ip-a.png
 
