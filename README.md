@@ -21,7 +21,7 @@ ip a
 
 He executat la comanda `ip a` per visualitzar totes les interfícies de xarxa disponibles. He identificat la segona adreça IP, corresponent a la interfície Host-Only, que serà la utilitzada per connectar-me remotament des del sistema Windows.
 
-![Imatge Ip Servidor](/media/1.png)
+![Imatge Ip Servidor](/-Activitat-NF1UD2/media/1.png)
 
 media/ip-a.png
 
@@ -39,7 +39,7 @@ ssh usuari@adreca_ip
 
 Des del Terminal de Windows he establert una connexió remota amb el servidor Ubuntu utilitzant el protocol SSH.
 
-![Conexio ssh](/ActivitatsSmx2/media/)
+![Conexio ssh](/-Activitat-NF1UD2/media/2.png)
 
 media/ssh-login.png
 
@@ -99,8 +99,7 @@ hostnamectl
 
 ### Captura
 
-![dia/hostnamectl-abans.png
-
+![Canvi Nom](/-Activitat-NF1UD2/media/5.png)
 ---
 
 ## 3.2 Canvi del hostname
@@ -117,7 +116,7 @@ He canviat el nom permanent de l'equip utilitzant les meves inicials.
 
 ### Captura
 
-media/set-hostname.png
+![Canvi Nom](/-Activitat-NF1UD2/media/6.png)
 
 ---
 
@@ -135,7 +134,7 @@ He afegit una descripció identificativa per al servidor.
 
 ### Captura
 
-![Icon con-name.png
+![Canvi Nom](/-Activitat-NF1UD2/media/7.png)
 
 ---
 
@@ -149,7 +148,7 @@ hostnamectl
 
 ### Captura
 
-![Hostnamenamectl-despres.png
+![Canvi Nom](/-Activitat-NF1UD2/media/8.png)
 
 ---
 
@@ -192,8 +191,7 @@ He actualitzat el fitxer perquè el servidor resolgui correctament el nou nom co
 
 ### Captura
 
-media/etc-hosts.png
-
+![Modificar Fitxer](/-Activitat-NF1UD2/media/9.png)
 ---
 
 ## 3.7 Hostname complet
@@ -210,7 +208,7 @@ La comanda mostra el nom complet de domini (FQDN), mentre que `hostname` només 
 
 ### Captura
 
-![hostnamename-f.png
+![Hostname complet](/-Activitat-NF1UD2/media/10.png)
 
 ---
 
@@ -230,7 +228,7 @@ He canviat la contrasenya de l'usuari administrador per una de nova més segura.
 
 ### Captura
 
-media/passwd.png
+![Canvi de contrasenya](/-Activitat-NF1UD2/media/11.png)
 
 ---
 
@@ -246,7 +244,7 @@ apt search btop
 
 ### Captura
 
-media/search-btop.png
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/12.png)
 
 ---
 
@@ -264,7 +262,7 @@ He consultat informació sobre el paquet, com la versió disponible, dependènci
 
 ### Captura
 
-![showshow-btop.png
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/13.png)
 
 ---
 
@@ -278,7 +276,7 @@ sudo apt install btop -y
 
 ### Captura
 
-![installtall-btop.png
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/14.png)
 
 ### Verificació
 
@@ -288,7 +286,7 @@ btop
 
 ### Captura
 
-media/btop.png
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/15.png)
 
 ---
 
@@ -312,8 +310,8 @@ lsd
 
 ### Captura
 
-media/lsd.png
-
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/16lsd.png)
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/17lsd.png)
 ---
 
 ## 5.5 Instal·lació d'Apache
@@ -326,8 +324,7 @@ sudo apt install apache2 -y
 
 ### Captura
 
-![apacheache-install.png
-
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/18.png)
 ---
 
 ### Verificació
@@ -338,8 +335,7 @@ systemctl status apache2
 
 ### Captura
 
-media/apache-status.png
-
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/19.png)
 ---
 
 ## 5.6 Desinstal·lació d'Apache
@@ -352,7 +348,7 @@ sudo apt purge apache2 -y
 
 ### Captura
 
-media/apache-purge.png
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/20.png)
 
 ---
 
@@ -366,8 +362,7 @@ sudo snap install micro --classic
 
 ### Captura
 
-media/micro-install.png
-
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/21.png)
 ---
 
 ### Verificació
@@ -378,7 +373,7 @@ snap list
 
 ### Captura
 
-![snap list](media/snap-
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/22.png)
 
 ## 5.8 Actualització de Micro
 
@@ -390,7 +385,7 @@ sudo snap refresh micro
 
 ### Captura
 
-![microicro-refresh.png
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/23.png)
 
 ---
 
@@ -404,7 +399,7 @@ sudo snap remove micro
 
 ### Captura
 
-media/micro-remove.png
+![Gestió de la instal·lació d'aplicacions](/-Activitat-NF1UD2/media/24.png)
 
 ---
 
@@ -420,7 +415,7 @@ timedatectl
 
 ### Captura
 
-media/timedatectl.png
+![Configuració d'hora, teclat i idioma](/-Activitat-NF1UD2/media/25.png)
 
 ---
 
@@ -438,7 +433,7 @@ He configurat el servidor perquè utilitzi la zona horària d'Espanya.
 
 ### Captura
 
-media/timezone.png
+![Configuració d'hora, teclat i idioma](/-Activitat-NF1UD2/media/26.png)
 
 ---
 
@@ -452,8 +447,7 @@ sudo dpkg-reconfigure keyboard-configuration
 
 ### Captura
 
-media/keyboard.png
-
+![Configuració d'hora, teclat i idioma](/-Activitat-NF1UD2/media/27.png)
 ---
 
 ## 6.4 Configuració de l'idioma
@@ -470,7 +464,7 @@ sudo dpkg-reconfigure locales
 
 ### Captura
 
-media/locales.png
+![Configuració d'hora, teclat i idioma](/-Activitat-NF1UD2/media/28.png)
 
 ---
 
@@ -486,7 +480,7 @@ find /etc -type f -name "*.yaml"
 
 ### Captura
 
-media/fin*-yaml.png
+![Explorant arxius de configuració](/-Activitat-NF1UD2/media/29.png)
 
 ---
 
@@ -500,7 +494,7 @@ find /etc -type d -name "*ssh*"
 
 ### Captura
 
-media/find-*sh.png
+![Explorant arxius de configuració](/-Activitat-NF1UD2/media/30.png)
 
 ---
 
@@ -513,8 +507,8 @@ find /var/log *type f -size +10M
 ```
 
 ### Captura*
-media/find-logs.png
 
+![Explorant arxius de configuració](/-Activitat-NF1UD2/media/31.png)
 ---
 
 ## 7.4 Configuració SSH sense comentaris
@@ -527,7 +521,7 @@ grep -vE '^\s*#|^\s*$' /etc/ssh/sshd_config
 
 ### Captura
 
-media/ssh-config.png
+![Explorant arxius de configuració](/-Activitat-NF1UD2/media/32.png)
 
 ---
 
@@ -541,7 +535,7 @@ He modificat la configuració de VirtualBox canviant la xarxa NAT per Adaptador 
 
 ### Captura
 
-media/bridge.png
+![Configuració de xarxa](/-Activitat-NF1UD2/media/33.png)
 
 ---
 
@@ -555,7 +549,7 @@ sudo nano /etc/netplan/00-installer-config.yaml
 
 ### Captura
 
-![net/netplan-config.png
+![Configuració de xarxa](/-Activitat-NF1UD2/media/34.png)
 
 ---
 
@@ -569,7 +563,7 @@ sudo netplan apply
 
 ### Captura
 
-![net/netplan-apply.png
+![Configuració de xarxa](/-Activitat-NF1UD2/media/35.png)
 
 ---
 
@@ -583,8 +577,7 @@ ip a
 
 ### Captura
 
-![ipa/ip-fixa.png
-
+![Configuració de xarxa](/-Activitat-NF1UD2/media/36.png)
 ---
 
 ## 8.5 Connectivitat
@@ -597,7 +590,7 @@ ping 8.8.8.8
 
 ### Captura
 
-![pingping.png
+![Configuració de xarxa](/-Activitat-NF1UD2/media/37.png)
 
 ---
 
@@ -613,11 +606,11 @@ systemctl status ssh
 
 ### Captura
 
-media/ssh-status.png
+![Gestió de serveis](/-Activitat-NF1UD2/media/38.png)
 
 ---
 
-## 9.2 Aturar el servei
+## Aturar el servei
 
 ### Comanda
 
@@ -625,13 +618,9 @@ media/ssh-status.png
 sudo systemctl stop ssh
 ```
 
-### Captura
-
-media/ssh-stop.png
-
 ---
 
-## 9.3 Iniciar el servei
+## Iniciar el servei
 
 ### Comanda
 
@@ -641,51 +630,13 @@ sudo systemctl start ssh
 
 ### Captura
 
-![ssh/ssh-start.png
+![Gestió de serveis](/-Activitat-NF1UD2/media/39.png)
 
 ---
 
 # 10. Exportació de la màquina virtual
 
-## 10.1 Tornar a DHCP
-
-### Comanda
-
-```bash
-sudo nano /etc/netplan/00-installer-config.yaml
-```
-
-### Configuració
-
-```yaml
-network:
-  version: 2
-  ethernets:
-    enp0s3:
-      dhcp4: true
-```
-
-### Captura
-
-![dha/dhcp.png
-
----
-
-## 10.2 Aplicació dels canvis
-
-### Comanda
-
-```bash
-sudo netplan apply
-```
-
-### Captura
-
-media/dhcp-apply.png
-
----
-
-## 10.3 Exportació a OVA
+## Exportació a OVA
 
 ### Explicació
 
@@ -693,10 +644,5 @@ He exportat la màquina virtual des de VirtualBox utilitzant l'opció **Fitxer �
 
 ### Captura
 
-![export-ova](mediag
+![Exportació a OVA](/-Activitat-NF1UD2/media/40.png)
 
----
-
-# Conclusions
-
-Al llarg d’aquesta activitat he après a administrar un servidor Ubuntu Server mitjançant SSH, gestionar paquets, modificar la configuració del sistema, administrar serveis, configurar la xarxa i exportar una màquina virtual. Aquestes tasques m’han permès conèixer millor l’administració bàsica de sistemes GNU/Linux i adquirir experiència pràctica en la gestió d’entorns virtualitzats.
